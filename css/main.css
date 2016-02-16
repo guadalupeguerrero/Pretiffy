@@ -1,0 +1,130 @@
+/*==================================ESTILO PARA EL HEADER============================ */
+
+.foto_principal{
+	margin-top: 6%;
+	width: 1920px;
+	height: 400px;
+	
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 430px;
+	left: 470px;
+}
+
+.nombre{
+	font-family: Arial;
+	font-size: 17px;
+	position: relative;
+	bottom: 320px;
+	left: 325px;
+	color: white;
+}
+
+h1{
+	font-size: 28px;
+	font-family: Oswald;
+	padding-bottom: 10px;
+	color: white;
+}
+
+/*======================Ponerle efectos a los navegadores===================================*/
+nav li{
+	font-size: 20px;
+	position: relative;
+	font-family: Oswald;
+	display: inline-block;
+	bottom: 530px;
+	left: 0px;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*=======================ESTILOS PRIMERA SECCION====================================*/
+.entrevistas{
+	position: relative;
+	width: 170px;
+	height: 170px;
+	border: 1px solid #8E8E8E;
+}
+
+#fondo{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	width: 142%;
+	height: 135%;
+	z-index: -1;
+}
+
+
+/*===========Aquí ir cambiando las descripciones de acuerdo a la persona=============*/
+
+.descripcion_persona{
+	font-family: Arial;
+	font-size: 13px;
+	position: relative;
+	left: 200px;
+	bottom: 228px;
+}
+
+.estilos{
+	font-family: Oswald;
+	color: #B00379;
+	font-size: 22px;
+	
+}
+/*=============Propiedades para las etiquetas h2 y h4 ==============*/
+.subtitulouno{
+	padding-left: 225px;
+	padding-bottom: 20px;
+}
+
+.subtitulodos{
+	padding-left: 400px;
+	padding-bottom: 20px;
+}
+
+.subtitulotres{
+	padding-left: 406px;
+	padding-bottom: 30px;
+	margin-top: 60px;
+}
+
+
+h4{
+	font-family: Oswald;
+	color: #B00379;
+	padding-left: 415px;
+}
+
+/*============================ESTILOS PARA LA SECCION DOS==================*/
+/*===========Cambiar las fotos de los hobbies de acuerdo a la persona==========*/
+.hobbies{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 2px solid #B00379;
+	padding: 10px;
+	margin-bottom: 80px;
+	margin-top: 30px;
+}
+
+/*======================ESTILOS PARA EL FOOTER=====================*/
+
+.fondodos{
+	background-image: url("../images/tile2.png");
+}
+
+.redes_sociales{
+	margin-bottom: 60px;
+	margin-left: 230px;
+}
